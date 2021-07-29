@@ -1,0 +1,75 @@
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+main {
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+    
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+}
+div#searchdiv {
+    position: relative;
+    width: 600px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid darkgray;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input:focus { 
+    outline: none !important;
+    
+}
+
+div {
+    margin: 20px;
+}
+input#search {
+    width: 480px;
+    height: 32px;
+    border: none;
+    font-size: 15pt;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    text-decoration: underline;
+  }
+
+  
+  
